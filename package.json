@@ -1,0 +1,33 @@
+{
+  "name": "boodschappenlijst",
+  "version": "1.0.0",
+  "description": "Novi Eindopdracht Ivan Winter",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Ivan Winter",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.4.1",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "buffer": "^6.0.3",
+    "csv": "^6.0.5",
+    "csv-transform": "^0.0.8",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  }
+}
